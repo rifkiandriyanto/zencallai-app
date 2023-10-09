@@ -37,6 +37,7 @@ const placeholderInputPromps =
 const LANGUAGE_OPTIONS = [
   { label: "English", value: "en-US" },
   { label: "French", value: "fr-FR" },
+  { label: "Spanish", value: "es-ES" },
 ];
 
 const { ids, styles } = StyleSheet.create({
