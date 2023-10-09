@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Zencall",
+    "slug": "zencallai-app",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#004AAD"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zencalai.zencallaiapp",
+      "buildNumber": "11"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#004AAD"
+      },
+      "package": "com.zencalai.zencallaiapp",
+      "versionCode": 11
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbf41cc0-e078-476f-8007-1dd400c06319"
+      }
+    },
+    "androidStatusBarColor": "#004AAD"
+  }
+}
